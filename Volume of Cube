@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int side;
+    printf("Please Enter the followings\n");
+    printf("Side\n");
+    scanf("%d", &side);
+
+    int area = side * side;
+    printf("The Area of the Cube is %d\n", area);
+    int volume = area * side;
+    printf("The Volume of the Cube is %d\n", volume);
+
+    return 0;
+}
