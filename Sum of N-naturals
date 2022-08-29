@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+    // print first 100 natural numbers
+    int a, n, sum=0;
+    printf("The first 100 natural numbers are:");
+    for (a = 1; a <= 100; ++a)
+    {
+    
+        printf("%d\n", a);
+    
+    }
+    //Now Calculate the Sum
+    for (a = 1; a <= 100; ++a)
+    {
+    
+        printf("%d\n", a);
+        sum += a;
+    }
+        printf("The Sum is %d\n", sum); 
+    
+    
+    return 0;
+}
