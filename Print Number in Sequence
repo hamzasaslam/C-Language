@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    // print first 100 natural numbers
+    int a;
+    printf("The first 100 natural numbers are:");
+    for (a = 1; a <= 100; a++)
+    {
+        printf("%d\n", a);
+    }
+    return 0;
+}
